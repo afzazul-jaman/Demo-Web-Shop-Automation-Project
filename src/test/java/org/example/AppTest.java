@@ -1,11 +1,9 @@
 
 package org.example;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.support.ui.Select;
 
 public class AppTest {
@@ -78,9 +76,6 @@ public class AppTest {
 
     public void selectQuantity(int qty){
         WebElement quantity = driver.findElement(By.id("addtocart_16_EnteredQuantity"));
-        String quantityText = quantity.getAttribute("value");
-        int quantityValue = Integer.parseInt(quantityText);
-        quantity.clear();
          for(int i=0; i<=qty; i++){
              quantity.clear();
              quantity.sendKeys(String.valueOf(i));

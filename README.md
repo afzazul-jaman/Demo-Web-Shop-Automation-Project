@@ -49,3 +49,10 @@ The script handles: **registration, login, product search, product configuration
 - Organized **OOP code** shows maintainability and professionalism.  
 - Covers **full user interaction** — from registration to adding products to the cart.  
 - Easily extendable to **checkout, validation, or reporting**, proving scalability skills.
+
+
+https://github.com/user-attachments/assets/4d8ed683-55fc-488b-951a-7612dacb38d0
+
+
+
+
